@@ -1,0 +1,44 @@
+@charset "UTF-8";
+		/* 입력폼 */
+		input {
+		    font-family: Dotum,'돋움',Helvetica,sans-serif;    
+		}
+		#bir_wrap {
+		    display: table;
+		    width: 100%;
+		}
+		
+		#bir_yy {
+		    display: table-cell;
+		    width: 147px;
+		    
+		}
+		
+		#bir_mm {
+		    display: table-cell;
+		    width: 147px;
+		    vertical-align: middle;
+		}
+		
+		#bir_dd {
+		    display: table-cell;
+		    width: 147px;
+		}
+		
+		#bir_mm, #bir_dd {
+		    padding-left: 10px;
+		}
+		
+		select {
+		    width: 100%;
+		    height: 29px;
+		    font-size: 15px;
+		    background: #fff url(https://static.nid.naver.com/images/join/pc/sel_arr_2x.gif) 100% 50% no-repeat;
+		    background-size: 20px 8px;
+		    -webkit-appearance: none;
+		    display: inline-block;
+		    text-align: start;
+		    border: none;
+		    cursor: default;
+		    font-family: Dotum,'돋움',Helvetica,sans-serif;
+		}
